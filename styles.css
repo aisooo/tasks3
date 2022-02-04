@@ -1,0 +1,73 @@
+.menu-container {
+  max-width: 300px;
+  border-right: 1px solid rgba(248, 248, 248, 1);
+  padding-right: 45px;
+}
+/*_____LOGO_____ */
+.logo-name {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16.7475px;
+  line-height: 21px;
+  color: #0f4264;
+}
+.menu-logo {
+  padding: 43px 55px;
+}
+
+/* _____MENU-ELEMENTS_____ */
+.menu-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 40px 82px;
+}
+.menu-elements-item {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #c7c7c7;
+}
+
+/* _____UPGRADE-ELEMENTS_____ */
+.upgrade-elements {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 43px;
+  padding-top: 200px;
+}
+.upgrade-title {
+  width: 103.76px;
+  height: 21.25px;
+  font-family: Suprema;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8.7511px;
+  line-height: 11px;
+  text-align: center;
+  color: #404040;
+}
+.btn {
+  width: 163.21px;
+  height: 41.03px;
+  color: #404040;
+  background: #ffc145;
+  border-radius: 13.617px;
+  border: none;
+}
+
+/* _____HEADER_____ */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
